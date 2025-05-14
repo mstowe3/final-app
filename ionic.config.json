@@ -1,0 +1,8 @@
+{
+  "name": "FinalApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "0be7917c"
+}
