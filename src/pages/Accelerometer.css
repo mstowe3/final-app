@@ -1,0 +1,42 @@
+/* Accelerometer Container */
+.accelerometer-container {
+  --ion-background-color: #FCE8E8;
+  font-family: 'Poppins', sans-serif;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Sensor Data Display */
+.accelerometer-data {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.accelerometer-data:hover {
+  background-color: #f8dede;
+}
+
+/* Axis Labels */
+.axis-label {
+  color: #e0b3b3;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+/* Smooth Motion Animation */
+@keyframes shakeEffect {
+  0% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  100% { transform: translateX(-2px); }
+}
+
+.shaking {
+  animation: shakeEffect 0.2s infinite;
+}
